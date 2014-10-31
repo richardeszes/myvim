@@ -162,6 +162,7 @@ let g:ctrlp_cmd='CtrlP'
 let g:ctrlp_working_path_mode='r'
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+nnoremap <c-t> :CtrlPTag<cr>
 
 " Gundo
 nnoremap <c-z> :GundoToggle<CR>
